@@ -1,0 +1,122 @@
+.worksPage #worksLogo {
+  position: absolute;
+  left: 35px;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+}
+.worksPage .worksSideArrow {
+  height: 100%;
+}
+.worksPage .worksMain {
+  width: 936px;
+  height: 553px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 95px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.worksPage h3,
+.worksPage p {
+  margin: 0;
+}
+.worksPage .worksInfoLayer {
+  display: none;
+  background: #e6e6e6;
+  width: 100%;
+  height: 100%;
+}
+.worksPage .worksInfoLayer .worksLayerContent {
+  width: 936px;
+  height: 550px;
+  color: black;
+  overflow: hidden;
+  background-color: white;
+}
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavLeft,
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavRight {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  top: 230px;
+  position: absolute;
+  opacity: 0.3;
+}
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavLeft:hover {
+  opacity: 1;
+}
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavRight:hover {
+  opacity: 1;
+}
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavLeft {
+  background: url('/horizoner.net/public/img/flecheNav.png');
+  left: 10px;
+  -webkit-transform: scale(0.8) rotate(180deg);
+  -moz-transform: scale(0.8) rotate(180deg);
+  -o-transform: scale(0.8) rotate(180deg);
+  -ms-transform: scale(0.8) rotate(180deg);
+}
+.worksPage .worksInfoLayer .worksLayerContent .flecheNavRight {
+  background: url('/horizoner.net/public/img/flecheNav.png');
+  right: 10px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+}
+.worksPage .worksInfoLayer .worksLayerContent .worksInfoLayerImg {
+  width: inherit;
+  height: 450px;
+}
+.worksPage .worksInfoLayer .worksLayerContent h3,
+.worksPage .worksInfoLayer .worksLayerContent p {
+  margin: 10px;
+  word-break: break-word;
+}
+.worksPage .worksItem {
+  width: 230px;
+  height: 282px;
+  float: left;
+  margin: 0 123px 0px 0;
+}
+.worksPage .worksItem img {
+  width: 230px;
+  height: 232px;
+}
+.worksPage .worksItem :hover {
+  cursor: pointer;
+}
+.worksPage .worksItem p {
+  display: none;
+}
+.worksPage .worksItemRight {
+  margin-right: 0;
+}
+.worksPage .worksNav {
+  position: absolute;
+  right: 142px;
+  top: 480px;
+}
+.worksPage .worksMore,
+.worksPage .worksMoreLeft,
+.worksPage .worksMoreRight,
+.worksPage .worksLoading {
+  font-size: 16px;
+  font-family: "Microsoft YaHei", "微软雅黑";
+  color: #fbf5f5;
+  text-decoration: none;
+}
+.worksPage .worksMoreLeft,
+.worksPage .worksMoreRight,
+.worksPage .worksLoading {
+  display: none;
+}
+.worksPage .worksMore:hover,
+.worksPage .worksMoreLeft:hover,
+.worksPage .worksMoreRight:hover {
+  text-shadow: 2px 2px 3px #fbf5f5;
+}
+
