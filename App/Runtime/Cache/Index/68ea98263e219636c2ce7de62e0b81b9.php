@@ -60,7 +60,7 @@
                         <ul style="width:936px;float:left;">
                             <li class="aboutHead">
                                 <a href="javascript:void(0);" class="aboutHeada">
-                                    <img src="__PUBLIC__/img/aboutHead2.png" class="aboutHeadPho">
+                                    <img src="__PUBLIC__/img/family/a1.jpg" class="aboutHeadPho">
                                 </a>
                                 <div class="aboutHisInt aboutfat">
                                     <p class="aboutChaEdu">
@@ -73,7 +73,7 @@
 
                             <li class="aboutHead">
                                 <a href="javascript:void(0);" class="aboutHeada">
-                                    <img src="__PUBLIC__/img/aboutHead2.png" class="aboutHeadPho">
+                                    <img src="__PUBLIC__/img/family/a2.jpg" class="aboutHeadPho">
                                 </a>
                                 <div class="aboutHisInt aboutfat">
                                     <p class="aboutChaEdu">
@@ -86,7 +86,7 @@
 
                             <li class="aboutHead">
                                 <a href="javascript:void(0);" class="aboutHeada">
-                                    <img src="__PUBLIC__/img/aboutHead2.png" class="aboutHeadPho">
+                                    <img src="__PUBLIC__/img/family/a3.jpg" class="aboutHeadPho">
                                 </a>
                                 <div class="aboutHisInt aboutfat">
                                     <p class="aboutChaEdu">
@@ -99,7 +99,7 @@
 
                             <li class="aboutHead">
                                 <a href="javascript:void(0);" class="aboutHeada">
-                                    <img src="__PUBLIC__/img/aboutHead2.png" class="aboutHeadPho">
+                                    <img src="__PUBLIC__/img/family/a4.jpg" class="aboutHeadPho">
                                 </a>
                                 <div class="aboutHisInt aboutfat">
                                     <p class="aboutChaEdu">
@@ -112,7 +112,7 @@
 
                             <li class="aboutHead">
                                 <a href="javascript:void(0);" class="aboutHeada">
-                                    <img src="__PUBLIC__/img/aboutHead2.png" class="aboutHeadPho">
+                                    <img src="__PUBLIC__/img/family/a5.jpg" class="aboutHeadPho">
                                 </a>
                                 <div class="aboutHisInt aboutfat">
                                     <p class="aboutChaEdu">
@@ -204,8 +204,8 @@
             <div class="contactInfo">
                 <img src="__PUBLIC__/img/contactPanel.png" class="contactPanel">
             	<div class="contactInfoList">
-	           		<p><span>Tel</span>: 12331231312</p>
-	           		<p><span>Email</span>: abc@def.com</p>
+	           		<p><span>Tel</span>: 15680708097</p>
+	           		<p><span>Email</span>: horizoner@sina.com</p>
 	           		<p><span>Addr</span>: 光电楼333</p>
            		</div>
             </div>

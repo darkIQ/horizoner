@@ -60,11 +60,19 @@
 				   $this->ajaxReturn(array('success'=>0),'json');	
 				}
 			} else if($da['action']==2){
-				$data['success'] = 1;
-				for($i=0;$i<5;$i++){
-				    $data['content'][$i]=M('family')->find($da['id']-$da['id']%5+$i-4);
-				}
-				$this->ajaxReturn($data,'json');
+				if($da['id']%5!=0){
+					$data['success'] = 1;
+				    for($i=0;$i<5;$i++){
+				        $data['content'][$i]=M('family')->find($da['id']-$da['id']%5+$i-4);
+				    }
+				    $this->ajaxReturn($data,'json');
+			    }else{
+			    	$data['success'] = 1;
+				    for($i=0;$i<5;$i++){
+				        $data['content'][$i]=M('family')->find($da['id']+$i-9);
+				    }
+				    $this->ajaxReturn($data,'json');
+			    }
 			}	
 		}
 	}

@@ -1,7 +1,5 @@
 define(function (require, exports, module) {
 	(function(){
-	    $(".aboutBack").hide();
-	    $(".aboutLoad").hide();
 		$(".aboutMore").click(function() {
 		    $.ajax({
 		        type:"post",
@@ -15,14 +13,27 @@ define(function (require, exports, module) {
 		            var i = 0;
 		            $.each($(".aboutHead"),function(){
 		            	if (i < data.content.length) {
-		                    $(this).find("img").attr("src", data.content[i].img);
+		                    $(this).find("img").attr("src", handleUrl+data.content[i].img);
 							$(this).find(".aboutName").text(data.content[i].name);
 							$(this).find(".aboutEdu").text(data.content[i].edu);
 							$(this).find(".aboutDire").text(data.content[i].dire);
 							$(this).find(".aboutCompany").text(data.content[i].company);
 							$("#aboutLastId").val(data.content[i].id);
-							i++;
-		                };
+							if ((data.content[i].id%5 != 0)) {
+							    $(".aboutMore").hide();
+							}
+							else{
+								$(".aboutMore").show();
+							};
+		                }
+		                else {
+					        $(this).find("img").hide();
+							$(this).find(".aboutName").text("");
+							$(this).find(".aboutEdu").text("");
+							$(this).find(".aboutDire").text("");
+							$(this).find(".aboutCompany").text("");
+				        };
+				        i++;
 		            });
 		        },
 		        beforeSend: function() {
@@ -35,7 +46,6 @@ define(function (require, exports, module) {
 					    alert("请求错误！");
                         };
                 }
-
 		    });
 		});
 
@@ -52,16 +62,18 @@ define(function (require, exports, module) {
 		            var i = 0;
 		            $.each($(".aboutHead"),function(){
 		            	if (i < 5) {
-		                    $(this).find("img").attr("src", data.content[i].img);
+		            		$(this).find("img").show();
+		                    $(this).find("img").attr("src", handleUrl+data.content[i].img);
 							$(this).find(".aboutName").text(data.content[i].name);
 							$(this).find(".aboutEdu").text(data.content[i].edu);
 							$(this).find(".aboutDire").text(data.content[i].dire);
 							$(this).find(".aboutCompany").text(data.content[i].company);
+							$("#aboutLastId").val(data.content[i].id);
 							if (data.content[i].id == 5) {
 							    $(".aboutBack").hide();
 							};
-							i++;
-		                };
+		                }
+		                i++;
 		            });
 		        },
 		        beforeSend: function() {

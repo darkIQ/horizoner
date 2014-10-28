@@ -23,14 +23,16 @@
 }
 .contactPage .contactInfo .contactInfoList {
   margin-top: 98px;
-  margin-left: 240px;
+  margin-left: 210px;
 }
 .contactPage .contactInfo .contactInfoList p {
+  font-family: "华文新魏","Hua Wenxinwei";
   font-size: 30px;
   color: #908787;
   margin: 23px;
 }
 .contactPage .contactInfo .contactInfoList p span {
+  font-family: "华文新魏","Hua Wenxinwei";
   width: 75px;
   display: inline-block;
 }
@@ -40,3 +42,4 @@
   bottom: 95px;
 }
 
+/*# sourceMappingURL=maps/contact.css.map */
